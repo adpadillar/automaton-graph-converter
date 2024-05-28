@@ -38,9 +38,7 @@ brew install graphviz
 
 - In Windows:
 
-```bash
-winget install graphviz
-```
+To be honest, windows is kind of a pain. I recommend using WSL2 with Ubuntu instead, and then following the Ubuntu instructions.
 
 2. Clone the repo, install the dependencies, and run the application:
 
