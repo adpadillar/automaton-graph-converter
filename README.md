@@ -22,14 +22,34 @@ Then, this automaton is graphically represented using the `visual-automata` libr
 
 ## Steps for running
 
-1. Run these commands
+1. Make sure graphviz is installed and in the PATH. If not, install it using the following command:
+
+- In Ubuntu:
 
 ```bash
-git clone git@github.com:adpadillar/lexical_analyzer-py.git # clone the repo
-cd lexical_analyzer-py # change to the project directory
-python3 -m venv .venv # create virtual environment
-source .venv/bin/activate # activate virtual environment
-pip install shiny visual-automata forbiddenfruit frozendict # install dependencies
+sudo apt-get install graphviz
+```
+
+- In MacOS:
+
+```bash
+brew install graphviz
+```
+
+- In Windows:
+
+```bash
+winget install graphviz
+```
+
+2. Clone the repo, install the dependencies, and run the application:
+
+```bash
+git clone git@github.com:adpadillar/automaton-graph-converter.git
+cd automaton-graph-converter
+python3 -m venv .venv
+source .venv/bin/activate
+pip install shiny visual-automata forbiddenfruit frozendict
 shiny run app.py
 ```
 
