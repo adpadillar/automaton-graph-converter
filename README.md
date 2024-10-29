@@ -1,5 +1,9 @@
 # Automaton rules to graph converter
 
+Enter some production rules in a text box, and get the automaton graph automatically!
+
+![showcase.gif](showcase.gif)
+
 ## Team
 
 - Axel Daniel Padilla Reyes A01642700
