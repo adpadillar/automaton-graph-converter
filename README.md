@@ -1,4 +1,4 @@
-# Project 3 Converter
+# Automaton rules to graph converter
 
 ## Team
 
